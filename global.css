@@ -1,0 +1,15 @@
+.flex-container{
+    display: flex;
+}
+
+.szeles{
+    width: 100%;
+}
+
+.magas{
+    height: 100%;
+}
+
+.margin-auto{
+    margin: auto;
+}
