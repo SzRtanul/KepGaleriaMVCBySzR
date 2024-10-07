@@ -1,0 +1,17 @@
+div.elonezet{
+    display: flex;
+    flex-wrap: wrap;
+}
+img.kicsi{
+    height: 120px;
+    margin: 0px 10px;
+    padding: 0px;
+}
+div.kicsi{
+    background-color: gray;
+    margin: 0px 10px;
+    padding: 0px;
+    /*
+    border: 1px solid black;
+    */
+}

@@ -19,7 +19,7 @@
                 <ul>
                     <!-- <li class="masstilus"><a href="index.php">Képgaléria</a></li> -->
                     <li><a href="index.php?site=view/kezdolap.html&header=view/HEADERS/kezdolap.html">Kezdőlap</a></li>
-                    <li><a href="index.php?site=view/galeria.php">Galéria</a></li>
+                    <li><a href="index.php?site=view/galeria.php&header=view/HEADERS/galeria.html">Galéria</a></li>
                     <!--<li><a href="index.php">Kapcsolat</a></li>-->
                 </ul>
             </div>

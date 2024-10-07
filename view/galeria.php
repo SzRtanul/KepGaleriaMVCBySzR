@@ -18,11 +18,14 @@
         $kategoria = isset($_GET["kategoria"]) ? $_GET["kategoria"] : "feketefeher";
         $path="resources/galeria/";
         $files = scandir($path . $kategoria);
+        
+        $megjelenit.="<div class=\"elonezet\">";
         foreach($files as $file){
             if(is_file("$path$kategoria/$file") ){
-                $megjelenit.="<img src=\"$path$kategoria/$file\">";
+                $megjelenit.="<div class=\"kicsi\"><img class=\"kicsi\" src=\"$path$kategoria/$file\"></div>";
             }
         }
+        $megjelenit.="</div><div class=\"teljes\"><img class=\"teljes\" src=\"\"></div>";
         echo $megjelenit;
     ?>
 </div>
