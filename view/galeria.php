@@ -16,14 +16,23 @@
     <?php 
         $megjelenit="";
         $kategoria = isset($_GET["kategoria"]) ? $_GET["kategoria"] : "feketefeher";
-        $path="resources/galeria/";
+      /*  $path="resources/galeria/";
         $files = scandir($path . $kategoria);
         
         $megjelenit.="<div class=\"elonezet\">";
         foreach($files as $file){
             if(is_file("$path$kategoria/$file") ){
-                $megjelenit.="<div class=\"kicsi\"><img class=\"kicsi\" src=\"$path$kategoria/$file\"></div>";
+                $megjelenit.="<div class=\"kicsi\"><img class=\"kicsi\" src=\"\"></div>";
+                // $path$kategoria/$file
             }
+        }*/
+        $itemCount=7;
+        $xTengely=1420;
+        $xTengelyPont=$xTengely/$itemCount;
+        for($i=1; $i<$itemCount; $i++){
+            $szamit=$xTengelyPont*$i;
+            $szamitY=sqrt(pow($xTengely/2, 2) - pow($szamit-($xTengely/2), 2));
+            $megjelenit.="<div class=\"kicsi\" style=\"position: absolute; left: {$szamit}px; bottom: {$szamitY}px;\"><img class=\"kicsi\" src=\"\"></div>";
         }
         $megjelenit.="</div><div class=\"teljes\"><img class=\"teljes\" src=\"\"></div>";
         echo $megjelenit;
