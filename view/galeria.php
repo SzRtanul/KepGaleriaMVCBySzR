@@ -30,8 +30,11 @@
         for($i=0; $i<$itemCount; $i++){
             $megjelenit.="<div class=\"kicsi\" style=\"position: absolute;\"><img class=\"kicsi\" src=\"\"></div>";
         }
-        $megjelenit.="</div><div class=\"teljes\"><img class=\"teljes\" src=\"\"></div>";
+        $megjelenit.="</div>";
         echo $megjelenit;
     ?>
+    <div class="teljes">
+        <img class="teljes" src="" alt="">
+    </div>
 </div>
 <script src="view/JS/galeria.js"></script>
