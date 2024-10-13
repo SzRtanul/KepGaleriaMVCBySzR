@@ -1,3 +1,7 @@
+.grid-container{
+    display: grid;
+}
+
 .flex-container{
     display: flex;
 }

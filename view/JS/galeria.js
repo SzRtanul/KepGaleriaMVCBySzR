@@ -1,4 +1,4 @@
-let korvonal = function(){
+/*let korvonal = function(){
     let elonezetek = document.getElementsByClassName("elonezet");
     let xTengely;
     let xTengelyPont;
@@ -21,4 +21,4 @@ let korvonal = function(){
 };
 
 window.addEventListener("load", korvonal);
-window.addEventListener('resize', korvonal);
+window.addEventListener('resize', korvonal);*/

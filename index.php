@@ -12,11 +12,10 @@
     <title>Szabó Roland - KepGaleriaMVCBySzR</title>
 </head>
 <body>
-    <div class="container">
-        <div class="navtar sotet-vilagos">
+    <div class="navtar sotet-vilagos">
             <!-- Logó -->
             <div class="vizszintes-nav disz">
-                <ul>
+                <ul class="kategoriak">
                     <!-- <li class="masstilus"><a href="index.php">Képgaléria</a></li> -->
                     <li><a href="index.php?site=view/kezdolap.html&header=view/HEADERS/kezdolap.html">Kezdőlap</a></li>
                     <li><a href="index.php?site=view/galeria.php&header=view/HEADERS/galeria.html">Galéria</a></li>
@@ -30,7 +29,6 @@
             if(file_exists($sitename)) {include($sitename);}
         ?>
         </main>
-        <!--<script src="index.js"></script>-->
-    </div>
+    <!--<script src="index.js"></script>-->
 </body>
 </html>

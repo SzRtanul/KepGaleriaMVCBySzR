@@ -1,17 +1,65 @@
-.grid-container{
-    display: grid;
+div.arckep{
+    height: 85%;
 }
 
 div.lorumkep{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
     padding: 70px;
     border: 1px solid black;
     margin: auto;
 }
 img.lorumkep{
-    width: 450px;
+    width: 60%;
+    margin: auto;
 }
 
 .adatlista{
+    width: 60%;
+    margin: auto;
     list-style: none;
     margin-top: 10px;
+}
+
+@media only screen and (max-width:310px) 
+{ 
+    div.arckep{
+        height: initial;
+    }
+    div.lorumkep{
+        margin: 0px auto;
+        padding: 10px;
+        width: 100%;
+        border: none;
+    }
+    img.lorumkep{
+        width: 90%;
+    }
+
+    .adatlista{
+        margin-top: 0px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:159px) 
+{ 
+    div.arckep{
+        height: initial;
+    }
+    div.lorumkep{
+        margin: 0px auto;
+        padding: 10px;
+        width: 100%;
+        border: none;
+    }
+    img.lorumkep{
+        width: 90%;
+    }
+
+    .adatlista{
+        margin-top: 0px;
+        width: 90%;
+    }
 }
