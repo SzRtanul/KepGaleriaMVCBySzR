@@ -49,8 +49,6 @@ body{
 
 .navtar{
     position: sticky;
-    top: 0px;
-    left: 0px;
     z-index: 10;
     display: flex;
     border: 1px solid #000000;
@@ -152,8 +150,6 @@ main{
         height: auto;
         min-width: 100%;
         position: sticky;
-        top: 0px;
-        left: 0px;
     }
     .kategoriak{
         width: 100%;
@@ -190,10 +186,10 @@ main{
         overflow-y: auto;
     }
     main{
-        overflow-y: unset;
+      /*  overflow-y: unset;*/
     }
     .navtar{
-        position: initial;
+       /* position: initial;*/
     }
 }
 

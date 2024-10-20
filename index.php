@@ -29,6 +29,6 @@
             if(file_exists($sitename)) {include($sitename);}
         ?>
         </main>
-    <!--<script src="index.js"></script>-->
+    <script src="index.js"></script>
 </body>
 </html>
